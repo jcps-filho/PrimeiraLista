@@ -7,11 +7,12 @@ public class Questao8 {
         Scanner leitor = new Scanner(System.in);
         String nome;
         int dias = 2;
+        double totalArrecado = 0;
 
         double total;
         Scanner sc = new Scanner(System.in);
         while (dias != 0) {
-            System.out.printf("Digite seu nome:");
+            System.out.printf("Digite seu nome: ");
             nome = leitor.next();
             System.out.printf("Bem Vindo(a)! "+ nome + ", informe quantos dias você ficara hospedado(a) (Para encerrar informe '0'): ");
             dias = leitor.nextInt();
@@ -23,6 +24,9 @@ public class Questao8 {
                 total = (dias * 40) + (dias * 8);
                 System.out.println("O valor da sua estadia é: " + total);
             }
+            totalArrecado = totalArrecado + total;
         }
+        System.out.println("O total arrecadado pelo pousa foi de: "+ totalArrecado);
+
     }
 }
