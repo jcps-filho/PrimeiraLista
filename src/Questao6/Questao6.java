@@ -7,7 +7,7 @@ public class Questao6 {
         Scanner leitor = new Scanner(System.in);
         Double salario, prestacao, porcento;
 
-        System.out.printf("Informe o seu salario bruto: ");
+        System.out.printf("Informe o seu salário bruto: ");
         salario = leitor.nextDouble();
         System.out.printf("Informe o valor de prestação desejado: ");
         prestacao = leitor.nextDouble();
