@@ -3,7 +3,7 @@ package Questao2;
 import java.util.Scanner;
 
 public class Questao2 {
-    public static void main(String[] Args) {
+    public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         int num1, num2;
         int x = 10;
